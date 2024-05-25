@@ -178,6 +178,24 @@ html {
    .welcome-img{
        width: 100% ;
    }
+   .invitation {
+    background-color: #a9a9a9;
+    padding: 20px;
+    line-height: 1.6;
+    padding-left: 7%;
+    padding-right: 7%;
+    line-height: 34px;
+}
+.invitation h1 {
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+.invitation p {
+  font-size: 20px;
+  font-weight:10;
+ text-align: center;
+}
   }
   hr.class-1 {
     border-top: 3px solid #8c8b8b;
@@ -286,6 +304,7 @@ body {
       flex: 1 1 100%; /* Make chapters occupy the full width of the container on very small screens */
     }
   }
+
 
 
 
