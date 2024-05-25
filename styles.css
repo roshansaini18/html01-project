@@ -316,6 +316,7 @@
   text-decoration: none;
   display: block;
   list-style-type: none;
+  margin-left: -37px;
 }
 
 .nav-it:hover{
