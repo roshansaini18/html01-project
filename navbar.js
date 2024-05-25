@@ -1,11 +1,11 @@
 
 
 window.addEventListener('scroll', () => {
-  const logo = document.getElementById('logo');
+  const nav = document.getElementById('nav');
   if (window.scrollY > 50) {
-      logo.classList.add('scrolled');
+      nav.classList.add('scrolled');
   } else {
-      logo.classList.remove('scrolled');
+      nav.classList.remove('scrolled');
   }
 });
 window.addEventListener('scroll', () => {
