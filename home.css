@@ -147,61 +147,34 @@ html {
   text-align: center;
 }
 
+/*  */
 
-  .host-city {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    box-sizing: border-box; /* Include padding in the element's total width and height */
-    background-color: #f0f0f0; /* Optional: Background color for the section */
-  }
+.host-city1 {
+  width: 100%;
+  
+}
 
-  .host-city1 {
-    width: 100%;
-    align-items: center;
-    margin-bottom: 20px; /* Space between sections */
-  }
-.host-city-img, .host-city-text {
-    width: 100%;
-    margin-left: 8%;
-    margin-right: 8%;
-    margin-bottom: 20px; /* Space between sections */
-  }
+.host-city2{
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
 
-  .host-city img {
-    width: 100%;
-    height: auto;
-    display: block;
-  }
+.host-city2 img{
+  width: 40%;
+}
 
-  @media (min-width: 768px) {
-    .host-city {
-      flex-direction: row;
-      flex-wrap: wrap;
-      justify-content: center;
+
+
+  @media (max-width: 690px) {
+    .host-city2{
+     display: inline;
     }
-
-    .host-city1 {
+   
+    .host-city2 img {
       width: 100%;
     }
-
-    .host-city2 {
-      margin-right: 0%;
-      align-items: center;
-    }
-
-    .host-city-img{
-      padding-left: 0%;
-      width: 100%;
-      height: auto;
-    }
-     .host-city-text {
-      width: 45%; /* Width for image and text in the flex layout */
-      max-width: none;
-      padding-left: 0%;
-      margin-bottom: 0; /* Remove bottom margin for flex items */
-    }
+     
   }
 
 
@@ -307,6 +280,7 @@ body {
       flex: 1 1 100%; /* Make chapters occupy the full width of the container on very small screens */
     }
   }
+
 
 
 
