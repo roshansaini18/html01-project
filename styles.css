@@ -35,7 +35,7 @@
 }
 
 
-.active, .nav-item:hover {
+.active {
   border-bottom: 5px solid #ffffff;
   color: #ffffff;
   padding-left:3px;
