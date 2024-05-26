@@ -15,8 +15,7 @@
     }
     .one{
         position: relative;
-        top: 0;
-        left: 0;
+
         width: 100%;
         height: 400px;
         background-image: url("./images/bg.jpg");
@@ -26,21 +25,20 @@
         justify-content: center;
         align-items: center;
         color: white;
+        font-size: 30px;
     }
     .one::before{
         content: "";
         position: absolute;
         top: 0;
         left: 0;
-        width: 100%;
-        height: 100%;
         background-color: rgba(0, 0, 0, 0.4);
         z-index: 1;
         opacity:1;
     }
     .two{
         color: #2f5597;
-        margin-top: 160px;
+        margin-top: 10px;
         text-align: center;
         font-size: 30px;
     }
@@ -184,7 +182,6 @@
     @media only screen and (max-width: 675px){
         .one{
         text-align: center;
-        margin-top: 160px;
         font-size: 25px;
         }
         .one::before{
@@ -195,7 +192,7 @@
         }
         .two{
             font-size: 20px;
-            margin-top: 150px;
+            margin-top: 0px;
         }
         .four {
             font-size: 20px;
