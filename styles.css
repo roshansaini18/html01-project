@@ -277,10 +277,6 @@
 
 
 
-.navbar > li > a:hover, .dropdown:hover .dropbtn,.navbar2 > li > a:hover,.navbar3 > li > a:hover,.navbar4 > li > a:hover,.navbar5 > li > a:hover,.navbar6 > li > a:hover,.navbar7 > li > a:hover,.navbar8 > li > a:hover {
- border-bottom: 5px solid #ffffff;
- color: #ffffff;
-}
 .nav-item{
   list-style-type: none;
 }
