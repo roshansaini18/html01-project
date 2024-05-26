@@ -40,6 +40,12 @@
   color: #ffffff;
 }
 
+
+.dropdown:hover  {
+ border-bottom: 0px solid #ffffff;
+ color: #ffffff;
+}
+
 .logo{
 
   display: flex;
