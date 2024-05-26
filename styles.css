@@ -38,6 +38,8 @@
 .active, .nav-item:hover {
   border-bottom: 5px solid #ffffff;
   color: #ffffff;
+  padding-left:3px;
+  padding-right:3px;
 }
 
 
