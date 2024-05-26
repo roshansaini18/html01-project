@@ -43,11 +43,6 @@
 }
 
 
-.dropdown:hover  {
- border-bottom: 0px solid #ffffff;
- color: #ffffff;
-}
-
 .logo{
 
   display: flex;
@@ -298,7 +293,6 @@
   position: absolute;
   background-color:#4f474e;
   min-width: 1600px;
-  margin-left: -150px;
   box-shadow: 0px 8px 16px 0px #4f474e;
   z-index: 2; 
   list-style-type: none;
@@ -312,11 +306,7 @@
   list-style-type: none;
 }
 
-.dropdown-content > li>a:hover {
-  border-left: 5px solid #ffffff;
-  color: #ffffff;
-  text-decoration: underline;
-}
+
 
 .dropdown:hover .dropdown-content {
   display: block;
