@@ -33,6 +33,13 @@
 .nav.scrolled {
   background-color: #4f474e; /* Change this color to your desired color */
 }
+
+
+.active, .nav-item:hover {
+  border-bottom: 5px solid #ffffff;
+  color: #ffffff;
+}
+
 .logo{
 
   display: flex;
