@@ -14,20 +14,29 @@
         right: 0px;
     }
     .one{
-        text-align: center;
-        margin-top: 200px;
-        font-size: 35px;
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 400px;
+        background-image: url("./images/bg.jpg");
+        background-position: center center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
     }
     .one::before{
-        background: url("./images/bg.jpg") no-repeat center center/cover;
-            content: "";
-            position: absolute;
-            top:0;
-            left: 0;
-            width: 100%;
-            height: 60%;
-            z-index: -1;
-            opacity: 1;
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.4);
+        z-index: 1;
+        opacity:1;
     }
     .two{
         color: #2f5597;
